@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Royal</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+        * {
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        .navbar-brand {
+            width: 10%;
+        }
+
+        .nav-link.active {
+            color: white !important;
+            background-color: #1d3557;
+            border-radius: 80px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .card-home-container {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .card-direita {
+            width: 50%;
+            height: auto;
+        }
+
+        .card-direita h2 {
+            font-size: 3rem;
+
+        }
+
+        .card-esquerda {
+            width: 30%;
+            margin: auto;
+        }
+
+        .logos-marcas {
+            margin-top: 30px;
+            display: flex;
+            width: 10%;
+            align-items: center;
+        }
+
+        .container-celulares {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .banner {
+            margin-top: 20px;
+        }
+
+        .text-banner {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+
+        }
+        .text-banner > h4{
+            font-size: 3rem;
+        }
+
+        .card-imagem-tela {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .cards-banner{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .texto-card-banner{
+            position: absolute;
+            top: 10%;
+        }
+        .texto-card-banner-baixo{
+            position: absolute;
+            top: 70%;
+            text-align: center;
+            width: 60%;
+        }
+        .cards-banner img {
+            width: 80%;
+            height: auto;
+        }
+        .btn{
+            background-color: #1d3557;
+            color: white;
+        }
+
+
+        span {
+            color: #41689e;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="RoyalBank/PlutoPay-01.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="carreira.html">Carreiras</a>
+                    <a class="nav-link" href="carreira.html">Sobre</a>
+                </div>
+            </div>
+            <div><button class="btn">Entrar <i class="bi bi-person-badge"></i></button></div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="card-home-container">
+                <div class="card-direita">
+                    <h2><span>Banco Royal</span><br> Sofisticação, excelência e tradição para sua confiança </h2>
+                    <p>Apresentando o Royal Bank, o banco que veio para reinar absoluto! Enquanto o Genesis Bank ainda
+                        está no Gênesis, nós já estamos na era dourada das finanças. 😉👑 #RoyalÉRoyal</p>
+                    <form class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com">
+                        <label for="floatingInputValue">Cadastre-se</label>
+                    </form>
+                    <div class="logos-marcas">
+                        <div class="logoImg">
+                            <img src="RoyalBank/Mastercard-Logo-PNG10.png" alt="logoMaster">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-esquerda"><img src="RoyalBank/psd_phone_mockup_with_blank_frame_for_design.png"
+                        alt="img-cell"></div>
+            </div>
+            <div class="container-celulares">
+                <div class="banner">
+                    <img src="RoyalBank/Royal-banner-black-03.png" alt="">
+                </div>
+                <div class="text-banner">
+                    <h4>Seu banco, seu jeito</h4>
+                </div>
+                <div class="card-imagem-tela">
+                    <div class="cards-banner">
+                        <img src="RoyalBank/Royal-04.png" alt="">
+                        <div class="texto-card-banner"><h4>Organize melhor</h4></div>
+                    </div>
+                    <div class="cards-banner">
+                        <img src="RoyalBank/Royal-06.png" alt="">
+                        <div class="texto-card-banner-baixo"><h4>Compartilhe com seus contatos</h4></div>
+                    </div>
+                    <div class="cards-banner">
+                        <img src="RoyalBank/Royal-05.png" alt="">
+                        <div class="texto-card-banner"><h4>Veja seus investimentos</h4></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer class="py-3 my-4" style="margin-top: 200px !important;"  >
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2024 Banco Royal, Inc</p>
+    </footer>
+    </div>
+    
+    
+
+
+</body>
+
+</html>
